@@ -34,8 +34,8 @@ public class AliyunFaceController {
     @PostMapping("/face_in")
     public Map faceIn(@RequestBody String face) throws Exception {
         AliYunFace aliYunFace = new AliYunFace();
-        String ak_id = "LTAIQM2SU0COzaWp"; //用户ak
-        String ak_secret1 = "EkxmpotcN3v7CQooJChIS2hCSVEaPN"; // 用户ak_secret
+        String ak_id = "*********"; //用户ak
+        String ak_secret1 = "*********"; // 用户ak_secret
         String url = "https://dtplus-cn-shanghai.data.aliyuncs.com/face/attribute";
         Map body = new HashMap();
         body.put("type", 1);
