@@ -30,5 +30,5 @@ spring:
 
 # face++ 配置信息
 face:
-  apiKey: wXOKblCgoWewYZahJRTcOaZwicrgjYnb
-  apiSecret: ZatXrQr7o_mt17OZJa1pdrhxcjw3dCa-
+  apiKey: *********
+  apiSecret: *********
