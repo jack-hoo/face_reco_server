@@ -217,8 +217,8 @@ public class AliYunFace {
     }
     public static void main(String[] args) throws Exception {
         // 发送POST请求示例
-        String ak_id = "LTAIQM2SU0COzaWp"; //用户ak
-        String ak_secret1 = "EkxmpotcN3v7CQooJChIS2hCSVEaPN"; // 用户ak_secret
+        String ak_id = "*********"; //用户ak
+        String ak_secret1 = "*************"; // 用户ak_secret
         String url = "https://dtplus-cn-shanghai.data.aliyuncs.com/face/attribute";
         String body = "{\"type\": \"0\", \"image_url\":\"http://imgwx4.2345.com/dypcimg/star/img/b/0/222/photo_192x262.jpg?1509946079\"}";
         String s = sendPost(url, body, ak_id, ak_secret1);
